@@ -1,0 +1,29 @@
+/* show just the cameras -- hide the navigation bar and structure header */
+
+.navbar {
+  display: none !important;
+}
+.main-content {
+  top: 0 !important;
+}
+.structure-header {
+  display: none !important;
+}
+.sidebar-content {
+  top: 0 !important;
+  margin-top: 3.5rem !important;
+}
+
+/* make the doorbell camera and the camera beneath it fit better vertically */
+
+.aspect-ratio-4x3 {
+  height: 28.1rem !important;
+}
+.space-item:last-child {
+  top: 332px !important;
+}
+.space-item:last-child .streaming-camera-puck.puck-item {
+  height: 23.8rem !important;
+}
+
+/* use a page zoom of 175% */
